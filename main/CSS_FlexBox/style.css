@@ -1,0 +1,97 @@
+.flex{
+    max-width: 300px;
+    padding: 0px;
+    border: 2px solid black;
+    display: flex;
+}
+
+.item{
+    background-color: aqua;
+    margin: 5px;
+}
+
+.flex-container{
+  margin: 0;
+  padding: 0;
+  display: flex;
+  list-style: none; 
+}
+.flex-item{
+    background: blue;
+    height: 50px;
+    width: 50px;
+    line-height: 50px;
+    font-size: 20px;
+    color:white;
+    text-align: center;
+    margin: 5px;
+}
+.row{
+    flex-direction: row;
+}
+.row-reverse{
+flex-direction: row-reverse;}
+
+.row-reverse li{
+    background: red;
+}
+
+.column{
+    float: left;
+    flex-direction: column;
+}
+.column li {
+   background: violet;
+}
+
+.column-reverse{
+    float: right;
+    flex-direction: column-reverse;
+}
+
+.column-reverse li{
+    background: orange;
+}
+
+.flex-container2{
+display: flex;
+height: 150px;
+border: 2px solid black;
+max-width: 310px;
+flex-direction: column;
+
+}
+
+.item-wrap{
+font-size: 24px;
+height: 50%;
+text-align: center;
+line-height: 50px;
+min-height: 100px;
+}
+
+.nowrap{
+    flex-wrap: nowrap;
+}
+.wrap{
+    flex-wrap: wrap;
+}
+.wrap-reverse{ 
+    flex-wrap: wrap-reverse;
+}
+
+.blue{
+    background:blue;
+}
+
+.green{
+    background: lightgreen;
+}
+
+.oragen{
+    background: orange;
+}
+
+.red{
+    background: red;
+}
