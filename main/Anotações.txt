@@ -44,3 +44,5 @@ Row-reverse: Sentido oposto á direção do texto. EX: 4321
 Column: ordenação de cima para baixo, em coluna unica
 column-reverse: ordenação inversa, de baixo para cima.
 
+------Links------
+Slides - cSS Flex Box: https://drive.google.com/file/d/1cSBnkzCsCaqkbiUssLW7LCVCw5yErRCk/view
