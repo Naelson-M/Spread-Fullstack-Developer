@@ -7,12 +7,20 @@ em flex itens.
 ---Propredades relacionadas---
 Display
 Flex-direction:(É a propriedade que estabelece o eixo princiapla do container definindo assim a direçao que os flex items sçao colocados no flex container.)
+
 flex-wrap:(é a propriedade que define se os itens devem ou não qubrar a linha. Por padrão eles não quebram linhas, isso faz com que os flex itens seja compactados além do limite do conteudo.
 nowrap: é o padrão, não permite a quebra de linha
 wrap: Permite a quebra de linha assim que dos flex itens não puder mais ser compactado.
 wrap-reverse: permite a quebra de linha assim que um dos flex itens não puder maus ser compactada, porem na direção contrária da linha, acima.)
-flex-flow
-justify-content
+
+flex-flow: (é um atalho para as propriedades Flex-direction e flex-wrap. Porém seu uso não é tao comum, visto que, quando mudamos o flex-direction para column, mantemos o padrão do flex-wrap que é nowrap.) 
+
+justify-content:(Essa propriedade vai se encarregar de alinhar os itens dentro do container de acordo com a direção pretendida e tratar da disbruição de espaçamento entre eles. Obs: Caso seus itens estaja ocupando 100% de todo o container ela não se aplica
+Flex-start: inicio do container.
+flex-end: fim do container
+center: centro do container
+space-between:cria um espaçamento igual entre os elementos.)
+
 align-items
 align-content
 ------Flex item------
@@ -35,3 +43,4 @@ Row(padrão): á direção do texto, esquerda para direita. Ex: 1234
 Row-reverse: Sentido oposto á direção do texto. EX: 4321
 Column: ordenação de cima para baixo, em coluna unica
 column-reverse: ordenação inversa, de baixo para cima.
+

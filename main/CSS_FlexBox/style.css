@@ -74,7 +74,7 @@ min-height: 100px;
     flex-wrap: nowrap;
 }
 .wrap{
-    flex-wrap: wrap;
+    flex-wrap: wrap-reverse;
 }
 .wrap-reverse{ 
     flex-wrap: wrap-reverse;
@@ -94,4 +94,27 @@ min-height: 100px;
 
 .red{
     background: red;
+}
+
+
+.flow-container{
+    display: flex;
+    border: 1px solid black;
+    max-width: 500px;
+}
+.default{
+    flex-flow: row nowrap;
+}
+.wrap{
+    flex-flow: row wrap;
+}
+
+.item-flow{
+    background-color: violet;
+    margin: 5px;
+    color: white;
+    text-align: center;
+    width: 100px;
+    height: 50px;
+    line-height: 50px;
 }
